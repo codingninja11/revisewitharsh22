@@ -2,7 +2,6 @@ vector<vector<string> > Anagrams(vector<string>& a) {
 map<string,vector<string>>mapp;
 string temp;
 int i;
-
         for(i=0;i<a.size();i++)
         {
             temp = a[i];
