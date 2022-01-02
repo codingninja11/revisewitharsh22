@@ -1,6 +1,6 @@
 ``` cpp
 
- vector<vector<string> > Anagrams(vector<string>& a) {
+vector<vector<string> > Anagrams(vector<string>& a) {
 map<string,vector<string>>mapp;
 string temp;
 int i;
