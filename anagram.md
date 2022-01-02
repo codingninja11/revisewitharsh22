@@ -1,8 +1,8 @@
 vector<vector<string> > Anagrams(vector<string>& a) {
-        map<string,vector<string>>mapp;
-        string temp;
-        int i;
-        
+map<string,vector<string>>mapp;
+string temp;
+int i;
+
         for(i=0;i<a.size();i++){
             temp = a[i];
             sort(temp.begin(), temp.end());
@@ -12,14 +12,13 @@ vector<vector<string> > Anagrams(vector<string>& a) {
          int itr = 0;
          for ( auto x : mapp){
          auto v = x.second;
-         
+
         for(i =0 ; i<v.size();i++){
          ans[itr].push_back(v[i]);
+
 }
-        itr ++;
-        }
-         return ans;
-        
+itr ++;
+}
+return ans;
+
     }
-
-
