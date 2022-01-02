@@ -13,12 +13,12 @@ class Solution{
         }
          vector<vector<string>> ans(mapp.size());
          int itr = 0;
-         for ( auto x : mapp){
+        for ( auto x : mapp){
          auto v = x.second;
 
         for(i =0 ; i<v.size();i++){
          ans[itr].push_back(v[i]);
-}
+        }
         itr ++;
         }
          return ans;
